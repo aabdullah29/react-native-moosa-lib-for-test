@@ -5,6 +5,7 @@
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
+  "react-native": "src/index.ts",
   "exports": {
     ".": {
       "import": {
@@ -181,5 +182,8 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }
